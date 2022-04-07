@@ -64,3 +64,4 @@ deploy:
   type: 'git'
   repo: 'git@github.com:gezhi-io/gezhi-io.github.io.git'
   branch: 'gh-pages'
+Plugins: hexo-generator-cname

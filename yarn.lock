@@ -1820,6 +1820,11 @@
   dependencies:
     "hexo-pagination" "1.0.0"
 
+"hexo-generator-cname@^0.3.0":
+  "integrity" "sha512-ZKyxqORsm4vlIilpTaL30xKyOiTS/ZdCs5PGso0UWh+E/4hvpoYNFv4sCp4EeUuBhgGiV4xuyg9M9CHfm8XV7Q=="
+  "resolved" "https://registry.npmmirror.com/hexo-generator-cname/-/hexo-generator-cname-0.3.0.tgz"
+  "version" "0.3.0"
+
 "hexo-generator-index@^2.0.0":
   "integrity" "sha512-q/29Vj9BZs0dwBcF+s9IT8ymS4aYZsDwBEYDnh96C8tsX+KPY5v6TzCdttz58BchifaJpP/l9mi6u9rZuYqA0g=="
   "resolved" "https://registry.npmmirror.com/hexo-generator-index/-/hexo-generator-index-2.0.0.tgz"
