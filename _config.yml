@@ -1,9 +1,9 @@
 title: 格致开物的博客
 subtitle: '对即将喜欢的事物保持三分钟热度'
 description: '记录我想要记录的。'
-keywords: null
+keywords: '数学建模,数学模型,绘画,数据分析'
 author: gezhi.io
-language: zh-Hans
+language: zh-CN
 timezone: 'Asia/Shanghai'
 url: https://www.gezhi.io
 permalink: ':year/:month/:title/'
@@ -17,9 +17,9 @@ tag_dir: tags
 archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
-i18n_dir: ':lang'
+i18n_dir: ':languages'
 skip_render: null
-new_post_name: ':title.md'
+new_post_name: ':year-:month-:day-:title.md'
 default_layout: post
 titlecase: false
 external_link:
@@ -37,7 +37,7 @@ highlight:
   auto_detect: false
   tab_replace: ''
   wrap: true
-  hljs: false
+  hljs: true
 prismjs:
   enable: false
   preprocess: true
@@ -64,4 +64,5 @@ deploy:
   type: 'git'
   repo: 'git@github.com:gezhi-io/gezhi-io.github.io.git'
   branch: 'gh-pages'
-Plugins: hexo-generator-cname
+Plugins:
+- hexo-generator-cname

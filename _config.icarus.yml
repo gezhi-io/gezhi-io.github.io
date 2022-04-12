@@ -1,8 +1,8 @@
 version: 5.0.0
 variant: default
-logo: /img/logo.svg
+logo: /img/logo.png
 head:
-    favicon: /img/favicon.svg
+    favicon: /img/favicon.png
     manifest:
         name: 
         short_name: 
@@ -42,15 +42,15 @@ head:
     rss: 
 navbar:
     menu:
-        Home: /
-        Archives: /archives
-        Categories: /categories
-        Tags: /tags
-        About: /about
+        首页: /
+        文章归档: /archives
+        文章分类: /categories
+        标签: /tags
+        关于: /about
     links:
         Download on GitHub:
             icon: fab fa-github
-            url: https://github.com/ppoffice/hexo-theme-icarus
+            url: https://github.com/gezhi-io/
 footer:
     links:
         Creative Commons:
@@ -59,14 +59,15 @@ footer:
         Attribution 4.0 International:
             icon: fab fa-creative-commons-by
             url: https://creativecommons.org/licenses/by/4.0/
-        Download on GitHub:
-            icon: fab fa-github
-            url: https://github.com/ppoffice/hexo-theme-icarus
+        知乎:
+            icon: fab fa-zhihu
+            url: https://www.zhihu.com/people/mathif
+        
 article:
     highlight:
-        theme: atom-one-light
+        theme: atom-one-dark
         clipboard: true
-        fold: unfolded
+        fold: ''
     readtime: true
     update_time: true
     licenses:
@@ -81,32 +82,22 @@ article:
             url: https://creativecommons.org/licenses/by-nc/4.0/
 search:
     type: insight
-comment:
-    type: disqus
-    shortname: ''
+# comment:
+#     type: ''
+#     shortname: ''
 donates:
     -
-        type: afdian
-        url: ''
-    -
         type: alipay
-        qrcode: ''
-    -
-        type: buymeacoffee
-        url: ''
-    -
-        type: patreon
-        url: ''
-    -
-        type: paypal
-        business: ''
-        currency_code: USD
+        qrcode: '/img/alipay.png'
     -
         type: wechat
-        qrcode: ''
-share:
-    type: sharethis
-    install_url: ''
+        qrcode: '/img/wechatpay.png'
+    -
+        type: buymeacoffee
+        url: https://www.buymeacoffee.com/gezhi
+# share:
+#     type: ''
+#     install_url: ''
 sidebar:
     left:
         sticky: false
@@ -116,29 +107,15 @@ widgets:
     -
         position: left
         type: profile
-        author: Your name
-        author_title: Your title
-        location: Your location
+        author: 格致开物
+        author_title: 数据分析、绘画
+        location: 北京
         avatar: 
         avatar_rounded: false
         gravatar: 
         follow_link: https://github.com/gezhi-io
         social_links:
-            Github:
-                icon: fab fa-github
-                url: https://github.com/ppoffice
-            Facebook:
-                icon: fab fa-facebook
-                url: https://facebook.com
-            Twitter:
-                icon: fab fa-twitter
-                url: https://twitter.com
-            Dribbble:
-                icon: fab fa-dribbble
-                url: https://dribbble.com
-            RSS:
-                icon: fas fa-rss
-                url: /
+            
     -
         position: left
         type: toc
@@ -149,8 +126,8 @@ widgets:
         position: left
         type: links
         links:
-            Hexo: https://hexo.io
-            Bulma: https://bulma.io
+            我的B站空间: https://space.bilibili.com/43879650/
+            数学建模百科: https://www.gezhi.wiki
     -
         position: left
         type: categories
@@ -163,22 +140,6 @@ widgets:
     -
         position: left
         type: tags
-    -
-        position: left
-        type: subscribe_email
-        description: 
-        feedburner_id: ''
-    -
-        position: left
-        type: adsense
-        client_id: ''
-        slot_id: ''
-    -
-        position: left
-        type: followit
-        description: 
-        action_url: ''
-        verification_code: ''
 plugins:
     animejs: true
     back_to_top: true
